@@ -1,7 +1,7 @@
-# Frontend Mentor - Rock, Paper, Scissors
+# Frontend Mentor - Rock, Paper, Scissors 
+[Live](https://dazzling-euler-101fcb.netlify.app/)
 
 ![Design preview for the Rock, Paper, Scissors coding challenge](./design/desktop-preview.jpg)
-##[Live](https://dazzling-euler-101fcb.netlify.app/)
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
