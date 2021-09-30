@@ -34,9 +34,10 @@ export const StyledPlayAgainBtn = styled.button`
 
   width: auto;
   &::before {
+    content: "${(props) => `${props.result}`}";
+
     @import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap");
     font-family: "Barlow Semi Condensed", sans-serif;
-    content: "${(props) => `${props.result}`}";
     position: absolute;
     font-weight: 700;
     top: -100%;
@@ -58,7 +59,7 @@ export const StyledPlayAgainBtn = styled.button`
   }
 
   @media (max-width: 776px) {
-    top: 120%;
+    top: 105%;
     font-size: 21px;
   }
 `;

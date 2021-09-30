@@ -6,9 +6,14 @@ import rules from "./../../icons/image-rules-bonus.svg";
 const Rules = () => {
   const [showRules, setShowRules] = useState(false);
 
+  const closeModal = () => {
+    console.log(showRules);
+    setShowRules(true);
+  };
+
   return (
     <>
-      <StyledRules onClick={() => setShowRules(true)}>Rules</StyledRules>
+      <StyledRules onClick={closeModal}>Rules</StyledRules>
       <Modal
         img={rules}
         click={() => setShowRules(!showRules)}
