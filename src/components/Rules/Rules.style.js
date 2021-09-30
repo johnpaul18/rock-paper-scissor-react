@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledRules = styled.button`
+  cursor: pointer;
   background-color: transparent;
   outline: none;
   border: 2px solid rgba(255, 255, 255, 0.6);

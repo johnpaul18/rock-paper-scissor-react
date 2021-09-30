@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
-export const StyledPlayAgainBtn = styled.button`
+export const StyledPlayAgainBtn = styled.div`
   position: absolute;
+  text-align: center;
+  cursor: pointer;
   top: 50%;
   left: 50%;
   z-index: 100;

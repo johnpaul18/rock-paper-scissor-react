@@ -26,6 +26,7 @@ export const StyledModal = styled.div`
   }
 
   & button {
+    cursor: pointer;
     background-color: transparent;
     outline: none;
     border: none;

@@ -15,6 +15,7 @@ const ripple = (x, y) => `
 }`;
 
 export const StyledChoice = styled.button`
+  cursor: pointer;
   position: absolute;
   background: rgb(0, 0, 0);
   background: radial-gradient(
